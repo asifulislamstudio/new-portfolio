@@ -193,5 +193,47 @@ line-height: 28px;
 /* resume/cv section style start here  */
 
 .resume-container{
-    
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 100px 210px;
+}
+.rc-heading{
+color: #474747;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 25px;
+}
+
+
+.col-box{
+    border-bottom: 2px solid #D1D1D1;;
+    margin-bottom: 20px;
+}
+
+.col-title{
+color: #474747;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.col-sub-title{
+color: #757575;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.col-description{
+color: #757575;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+margin-top: 20px;
+margin-bottom: 30px;
 }
