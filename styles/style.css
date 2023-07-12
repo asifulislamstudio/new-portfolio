@@ -1,10 +1,11 @@
-*{
+ *{
     margin: 0;
     padding: 0;
-}
+} 
 /* common share style  */
 body{
     font-family: 'Open Sans', sans-serif;
+    /* background-color: #f1f1f1; */
 }
 /* primary font and color ?    */
 .primary-color{
@@ -19,6 +20,15 @@ body{
     padding: 15px 30px;
     border-radius: 5px;
 }
+.primary-section-title{
+    color: #181818;
+text-align: center;
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 
 header{
     background: #FFF8F3;
@@ -26,7 +36,9 @@ header{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding: 20px 0;
 }
 
 nav > h3{
@@ -45,5 +57,141 @@ nav li{
     margin-right: 50px;
     list-style: none;
 }
+.banner{
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 50px 0px 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
 
+.banner .profile-picture{
+    width: 500px;
+}
 
+.banner-sub-heading{
+color:  #474747;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.banner-title{
+    color:  #181818;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.bannerp {
+color: #757575;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin: 10px 0px 25px 0px;
+
+}
+.secondary-button{
+    border: 2px solid #FD6E0A;
+    background-color: transparent;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 5px;
+
+}
+
+.secondary-button:hover{
+    background-color: #FD6E0A;
+    color: #FFF;
+    border: none;
+
+}
+/* header section done  */
+/* About Section start here  */
+
+.about{
+    
+}
+
+.about-container{
+    padding: 120px 150px;
+    background-color: #FFF8F3;
+    margin: 100px 210px;
+}
+.about-description{
+    color: var(--dark-03, #757575);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin: 30px 0px 50px;
+}
+.about-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info-box{
+    text-align: center;
+}
+.info-box:hover{
+    border-bottom: 2px solid #474747;
+}
+.info-box h4{
+color: #757575;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+    
+/* about section end here  */
+
+/* skill section start here  */
+.skill-section{
+    margin: 100px 210px;
+}
+.skill-card-section{
+    display: flex;
+    align-items: center;
+    gap:20px
+}
+
+.card{
+    width: 260px;
+    height: 350px;
+    background-color: #FFF;
+    padding: 30px 33px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.card-title{
+color:#181818;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 25px 0px;
+}
+.card-description{
+ color:  #757575;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+
+/* skill section end here  */
+
+/* resume/cv section style start here  */
+
+.resume-container{
+    
+}
